@@ -11,6 +11,8 @@ import Certificates from './sections/Certificates';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
 import { Awards, ExtraCurricular } from './sections/OtherSections';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
           <ExtraCurricular />
           <Contact />
         </main>
+        <Analytics />
       </div>
+
       <Footer />
     </div>
   );
