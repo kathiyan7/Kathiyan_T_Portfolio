@@ -8,13 +8,13 @@ const Education = () => {
             year: "2022 - 2026",
             degree: "B. Tech Information Technology",
             institution: "Rajalakshmi Engineering College",
-            details: "Pursuing undergraduate degree in Information Technology. Current CGPA: 8.0"
+            details: "Pursuing undergraduate degree in Information Technology."
         },
         {
             year: "2021 - 2022",
             degree: "Higher Secondary School Education",
             institution: "Velammal Matriculation Higher Secondary School",
-            details: "Focus on Computer Science and Mathematics. Percentage: 94%"
+            details: "Focus on Computer Science and Mathematics."
         }
     ];
 

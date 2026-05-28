@@ -35,7 +35,7 @@ const Skills = () => {
                 { name: "MongoDB", color: "text-green-500", bg: "bg-green-500/10", border: "border-green-500/20" },
                 { name: "MySQL", color: "text-blue-600", bg: "bg-blue-600/10", border: "border-blue-600/20" },
                 { name: "Node.js", color: "text-green-500", bg: "bg-green-500/10", border: "border-green-500/20" },
-                { name: "Express.js", color: "text-yellow-500", bg: "bg-yellow-500/10", border: "border-yellow-500/20" }
+                { name: ".Net Core", color: "text-yellow-500", bg: "bg-yellow-500/10", border: "border-yellow-500/20" }
             ]
         },
         {

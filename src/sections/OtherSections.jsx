@@ -79,7 +79,7 @@ export const ExtraCurricular = () => {
                             <h3 className="text-2xl font-bold text-white font-display">Event Organization</h3>
                         </div>
                         <p className="text-gray-400 leading-relaxed font-light text-lg">
-                            Orchestrated major campus events including <span className="text-white font-medium">Recharge '24/25</span>, <span className="text-white font-medium">Design Summit</span>, and <span className="text-white font-medium">INNOVISION</span>. Managed logistics, team coordination, and execution for 500+ participants.
+                            Orchestrated major campus events including <span className="text-white font-medium">Recharge '24 & '25</span>, <span className="text-white font-medium">Design Summit '23 & '24</span>, <span className="text-white font-medium">INNOVISION '24 & '25</span>, <span className="text-white font-medium">Beginnovate '24</span>, <span className="text-white font-medium">Christmas '22 '23 & '24</span>, <span className="text-white font-medium">Pongal '23 '24 & '25</span>, and <span className="text-white font-medium">Women’s Day Celebration</span>. Managed logistics, team coordination, and execution for 500+ participants.
                         </p>
                     </div>
                 </GlassCard>
