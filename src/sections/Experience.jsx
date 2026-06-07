@@ -62,7 +62,7 @@ const Experience = () => {
                             <p className="text-cyan-400 font-medium mb-4 text-sm tracking-wide bg-cyan-900/20 w-fit px-3 py-1 rounded">Onsite Internship</p>
 
                             <ul className="space-y-3">
-                                {["I am currently working as a Software Developer Intern at LCS Control Pvt Ltd.","I am gaining hands-on experience in software development and problem-solving.","I am learning new technologies, improving my coding skills and understanding of software architecture and How Industries work."].map((item, i) => (
+                                {["Developed and maintained backend services using ASP.NET Core, C#, and MySQL, designing RESTful APIs, stored procedures, and database operations for enterprise kiosk management applications.","Integrated AWS S3 cloud storage and implemented modules for user, device, category, item, and order management, enhancing application scalability, performance, and data reliability."].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3 text-gray-300 leading-relaxed font-light">
                                         <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full mt-2.5 shrink-0 shadow-[0_0_8px_rgba(6,182,212,0.8)]" />
                                         {item}

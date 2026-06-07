@@ -5,20 +5,25 @@ import { FolderGit2, ExternalLink, Code2 } from "lucide-react";
 const Projects = () => {
     const projects = [
         {
-            title: "Quiz Web Application",
-            tech: ["HTML", "CSS", "JS", "Node.js", "MongoDB"],
-            description: "Christmas-Themed Quiz Web App where users enter details, take a quiz with randomized questions, and submit responses to MongoDB. Features snowfall effects, festive decorations, and secure server-side validation preventing duplicate attempts."
+            title: "Educational Video Generation Platform",
+            tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+            description: "An AI-powered educational video generation platform that transforms user-provided topics into complete learning videos by automating content research, script writing, image generation, narration, and video assembly. The system includes educator dashboards for managing requests, tracking generation progress, and downloading HD videos, significantly reducing content creation time from hours to minutes."
         },
         {
-            title: "Customer Care Chatbot",
-            tech: ["React", "react-simple-chatbot"],
-            description: "Interactive Chatbot to streamline user interactions for complaints, feedback, and polls. Features multi-level support, custom messaging, real-time issue escalation, and form submission handling."
+            title: "Quiz Web Application",
+            tech: ["HTML", "CSS", "JS", "Node.js", "MongoDB"],
+            description: "A festive Christmas-themed quiz web application that allows users to register, attempt randomized quiz questions, and securely store responses, while incorporating server-side validation to prevent duplicate submissions and a credential-based authentication system. The application also features interactive holiday-themed animations and supports Excel-based data export for efficient result management."
         },
         {
             title: "Via Band",
             tech: ["ESP32", "IoT", "Web/Mobile App"],
-            description: "Wearable health monitoring system using ESP32 and sensors (MPU6050, MAX30102, GPS). Includes a web/mobile app for real-time data visualization, alerts, hospital locator, and emergency notifications."
-        }
+            description: "VIA Band is an IoT-based wearable health monitoring system built using ESP32 and multiple sensors to track vital health parameters and real-time location. The platform provides a web dashboard for visualizing health data, generating alerts, and analyzing trends, while integrating hospital locator and emergency notification features to enable rapid assistance during critical situations."
+        },
+        // {
+        //     title: "Customer Care Chatbot",
+        //     tech: ["React", "react-simple-chatbot"],
+        //     description: "Interactive Chatbot to streamline user interactions for complaints, feedback, and polls. Features multi-level support, custom messaging, real-time issue escalation, and form submission handling."
+        // }
     ];
 
     return (
