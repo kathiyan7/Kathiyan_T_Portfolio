@@ -25,9 +25,9 @@ const About = () => {
                         Innovating & <span className="text-cyan-400">Learning</span> Every Day
                     </h3>
                     <p className="text-lg text-gray-400 leading-relaxed font-light">
-                        I am an Aspiring IT Professional passionate about learning new technologies and staying updated with industry trends.
-                        I possess strong leadership skills with a calm, strategic approach to team coordination.
-                        I am driven by innovation, constantly exploring new ideas to develop cutting-edge solutions.
+                        Aspiring IT professional with a strong foundation in technology and a passion for continuous learning. 
+                        Known for effective leadership, strategic thinking, problem solving, collaborative team management and strong understanding of Data Structure and Algorithms.
+                        Enthusiastic about exploring emerging technologies, adapting to industry advancements, and developing innovative solutions that address real-world challenges.
                     </p>
 
                     <div className="grid grid-cols-2 gap-6">

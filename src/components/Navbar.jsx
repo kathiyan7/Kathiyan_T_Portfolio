@@ -8,6 +8,7 @@ const navLinks = [
     { name: "Education", to: "education" },
     { name: "Skills", to: "skills" },
     { name: "Projects", to: "projects" },
+    { name: "Publications", to: "publications" },
     // Grouping less critical links could be done for mobile, but keeping flat for now
     { name: "Experience", to: "experience" },
     { name: "Contact", to: "contact" },
