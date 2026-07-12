@@ -46,7 +46,7 @@ const Home = () => {
                     transition={{ delay: 0.3, duration: 0.8 }}
                     className="text-xl md:text-2xl text-gray-400 mb-10 font-light max-w-2xl mx-auto leading-relaxed"
                 >
-                    Tech Enthusiast | Aspiring IT Professional | Software Developer
+                    Software Developer | Aspiring IT Professional | Tech Enthusiast
                 </motion.p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-6 items-center mb-16">

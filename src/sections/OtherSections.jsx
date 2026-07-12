@@ -38,9 +38,9 @@ export const Awards = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-white font-display">
                 Honors & <span className="text-gradient-accent">Awards</span>
             </h2>
-            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto px-4">
                 {awards.map((item, idx) => (
-                    <GlassCard key={idx} className={`flex flex-col gap-6 border-white/5 transition-all duration-500 group relative overflow-hidden ${item.border} ${item.shadow}`}>
+                    <GlassCard key={idx} className={`flex flex-col gap-6 p-6 sm:p-8 border-white/5 transition-all duration-500 group relative overflow-hidden ${item.border} ${item.shadow}`}>
                         <div className="absolute top-0 right-0 p-32 bg-gradient-to-br from-white/5 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:opacity-100 opacity-50 transition-opacity" />
 
                         <div className={`${item.bg} p-4 rounded-2xl w-fit group-hover:scale-110 transition-transform duration-500`}>
@@ -64,10 +64,10 @@ export const ExtraCurricular = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-white font-display">
                 Beyond The <span className="text-gradient-accent">Code</span>
             </h2>
-            <div className="grid md:grid-cols-5 gap-6 max-w-6xl mx-auto px-4 h-full">
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 sm:gap-6 max-w-6xl mx-auto px-4 h-full">
 
                 {/* Event Organization - Spans 3 columns */}
-                <GlassCard className="md:col-span-3 border-white/5 hover:border-cyan-500/30 group relative overflow-hidden min-h-[300px] flex flex-col justify-end p-8">
+                <GlassCard className="lg:col-span-3 border-white/5 hover:border-cyan-500/30 group relative overflow-hidden min-h-[220px] sm:min-h-[300px] flex flex-col justify-end p-6 sm:p-8">
                     <div className="absolute top-0 right-0 opacity-10 group-hover:opacity-20 transition-opacity duration-500 pointer-events-none">
                         <Sparkles size={200} strokeWidth={0.5} />
                     </div>
@@ -78,14 +78,14 @@ export const ExtraCurricular = () => {
                             </div>
                             <h3 className="text-2xl font-bold text-white font-display">Event Organization</h3>
                         </div>
-                        <p className="text-gray-400 leading-relaxed font-light text-lg">
+                        <p className="text-gray-400 leading-relaxed font-light text-base sm:text-lg">
                             Orchestrated major campus events including <span className="text-white font-medium">Recharge '24 & '25</span>, <span className="text-white font-medium">Design Summit '23 & '24</span>, <span className="text-white font-medium">INNOVISION '24 & '25</span>, <span className="text-white font-medium">Beginnovate '24</span>, <span className="text-white font-medium">Christmas '22 '23 & '24</span>, <span className="text-white font-medium">Pongal '23 '24 & '25</span>, and <span className="text-white font-medium">Women’s Day Celebration</span>. Managed logistics, team coordination, and execution for 500+ participants.
                         </p>
                     </div>
                 </GlassCard>
 
                 {/* Leadership - Spans 2 columns */}
-                <GlassCard className="md:col-span-2 border-white/5 hover:border-purple-500/30 group relative overflow-hidden min-h-[300px] flex flex-col justify-end p-8">
+                <GlassCard className="lg:col-span-2 border-white/5 hover:border-purple-500/30 group relative overflow-hidden min-h-[220px] sm:min-h-[300px] flex flex-col justify-end p-6 sm:p-8">
                     <div className="absolute top-0 right-0 opacity-10 group-hover:opacity-20 transition-opacity duration-500 pointer-events-none">
                         <Users size={180} strokeWidth={0.5} />
                     </div>
@@ -96,7 +96,7 @@ export const ExtraCurricular = () => {
                             </div>
                             <h3 className="text-2xl font-bold text-white font-display">Leadership</h3>
                         </div>
-                        <p className="text-gray-400 leading-relaxed font-light text-lg">
+                        <p className="text-gray-400 leading-relaxed font-light text-base sm:text-lg">
                             Class Representative (4 Years). Bridging the gap between faculty and students, ensuring smooth academic operations and peer support.
                         </p>
                     </div>
