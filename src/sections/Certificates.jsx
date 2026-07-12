@@ -4,7 +4,7 @@ import { Award } from "lucide-react";
 const Certificates = () => {
     return (
         <SectionContainer id="certificates">
-            <h2 className="text-4xl font-bold mb-12 text-center text-white"><span className="border-b-4 border-blue-500 pb-2">Certifications</span></h2>
+            <h2 className="text-4xl font-bold mb-12 text-center text-white">Certifications</h2>
             <div className="flex flex-col lg:flex-row justify-center items-stretch gap-4 md:gap-6">
                 <div className="glass-card p-6 sm:p-8 rounded-xl text-center w-full lg:max-w-md flex-1 border border-blue-500/30 hover:shadow-[0_0_20px_rgba(37,99,235,0.2)] transition-all">
                     <div className="w-20 h-20 bg-blue-500/20 rounded-full mx-auto mb-6 flex items-center justify-center text-blue-400">
