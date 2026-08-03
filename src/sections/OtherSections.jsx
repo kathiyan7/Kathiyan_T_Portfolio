@@ -30,6 +30,15 @@ export const Awards = () => {
             bg: "bg-orange-400/10",
             border: "group-hover:border-orange-400/50",
             shadow: "group-hover:shadow-[0_0_30px_rgba(251,146,60,0.3)]"
+        },
+        {
+            title: "780+ LeetCode Problems Solved",
+            desc: "Demonstrated strong proficiency in data structures, algorithms, and problem solving through extensive LeetCode practice.",
+            icon: Sparkles,
+            color: "text-cyan-400",
+            bg: "bg-cyan-400/10",
+            border: "group-hover:border-cyan-400/50",
+            shadow: "group-hover:shadow-[0_0_30px_rgba(6,182,212,0.3)]"
         }
     ];
 

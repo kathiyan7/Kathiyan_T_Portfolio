@@ -15,17 +15,21 @@ const Skills = () => {
                 { name: "C++", color: "text-blue-500", bg: "bg-blue-500/10", border: "border-blue-500/20" },
                 { name: "Java", color: "text-red-500", bg: "bg-red-500/10", border: "border-red-500/20" },
                 { name: "JavaScript", color: "text-yellow-400", bg: "bg-yellow-400/10", border: "border-yellow-400/20" },
-                { name: "Dart", color: "text-cyan-400", bg: "bg-cyan-400/10", border: "border-cyan-400/20" }
+                { name: "SQL", color: "text-sky-500", bg: "bg-sky-500/10", border: "border-sky-500/20" },
+                { name: "Dart", color: "text-cyan-400", bg: "bg-cyan-400/10", border: "border-cyan-400/20" },
+                { name: "C#", color: "text-violet-500", bg: "bg-violet-500/10", border: "border-violet-500/20" },
             ]
         },
         {
-            title: "Frameworks & Tech",
+            title: "Frameworks & Technologies",
             icon: Layers,
             skills: [
                 { name: "HTML", color: "text-orange-500", bg: "bg-orange-500/10", border: "border-orange-500/20" },
                 { name: "CSS", color: "text-blue-400", bg: "bg-blue-400/10", border: "border-blue-400/20" },
                 { name: "React.js", color: "text-cyan-400", bg: "bg-cyan-400/10", border: "border-cyan-400/20" },
-                { name: "Tailwind CSS", color: "text-teal-400", bg: "bg-teal-400/10", border: "border-teal-400/20" }
+                { name: "TypeScript", color: "text-blue-500", bg: "bg-blue-500/10", border: "border-blue-500/20" },
+                { name: "Tailwind CSS", color: "text-teal-400", bg: "bg-teal-400/10", border: "border-teal-400/20" },
+                { name: "Bootstrap", color: "text-purple-500", bg: "bg-purple-500/10", border: "border-purple-500/20" }
             ]
         },
         {
@@ -34,8 +38,9 @@ const Skills = () => {
             skills: [
                 { name: "MongoDB", color: "text-green-500", bg: "bg-green-500/10", border: "border-green-500/20" },
                 { name: "MySQL", color: "text-blue-600", bg: "bg-blue-600/10", border: "border-blue-600/20" },
+                { name: "ASP.Net Core", color: "text-sky-400", bg: "bg-sky-400/10", border: "border-sky-400/20" },
                 { name: "Node.js", color: "text-green-500", bg: "bg-green-500/10", border: "border-green-500/20" },
-                { name: ".Net Core", color: "text-yellow-500", bg: "bg-yellow-500/10", border: "border-yellow-500/20" }
+                { name: "Express.js", color: "text-emerald-500", bg: "bg-emerald-500/10", border: "border-emerald-500/20" },
             ]
         },
         {
@@ -44,6 +49,7 @@ const Skills = () => {
             skills: [
                 { name: "Git/GitHub", color: "text-orange-500", bg: "bg-orange-500/10", border: "border-orange-500/20" },
                 { name: "Figma", color: "text-pink-500", bg: "bg-pink-500/10", border: "border-pink-500/20" },
+                { name: "AWS", color: "text-orange-500", bg: "bg-orange-500/10", border: "border-orange-500/20" },
                 { name: "Linux", color: "text-yellow-500", bg: "bg-yellow-500/10", border: "border-yellow-500/20" },
                 { name: "MacOS", color: "text-gray-300", bg: "bg-gray-100/10", border: "border-gray-500/20" }
             ]

@@ -1,20 +1,26 @@
 import SectionContainer from "../components/SectionContainer";
 import GlassCard from "../components/GlassCard";
 import { FolderGit2, ExternalLink, Code2 } from "lucide-react";
+import AIProjectImg from "../assets/Projects/AI_Educational_Video_Generation.png";
+import QuizProjectImg from "../assets/Projects/Quiz_Web_Application.png";
+import ViaBandImg from "../assets/Projects/Via_Band.png";
 
 const Projects = () => {
     const projects = [
         {
-            title: "Educational Video Generation Platform",
+            image: AIProjectImg,
+            title: "AI-based Educational Video Generation Platform",
             tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
             description: "An AI-powered educational video generation platform that transforms user-provided topics into complete learning videos by automating content research, script writing, image generation, narration, and video assembly. The system includes educator dashboards for managing requests, tracking generation progress, and downloading HD videos, significantly reducing content creation time from hours to minutes."
         },
         {
+            image: QuizProjectImg,
             title: "Quiz Web Application",
             tech: ["HTML", "CSS", "JS", "Node.js", "MongoDB"],
             description: "A festive Christmas-themed quiz web application that allows users to register, attempt randomized quiz questions, and securely store responses, while incorporating server-side validation to prevent duplicate submissions and a credential-based authentication system. The application also features interactive holiday-themed animations and supports Excel-based data export for efficient result management."
         },
         {
+            image: ViaBandImg,
             title: "Via Band",
             tech: ["ESP32", "IoT", "Web/Mobile App"],
             description: "VIA Band is an IoT-based wearable health monitoring system built using ESP32 and multiple sensors to track vital health parameters and real-time location. The platform provides a web dashboard for visualizing health data, generating alerts, and analyzing trends, while integrating hospital locator and emergency notification features to enable rapid assistance during critical situations."
@@ -35,10 +41,19 @@ const Projects = () => {
                 {projects.map((project, index) => (
                     <GlassCard key={index} className="h-full flex flex-col p-0 overflow-hidden group border-white/5 hover:border-cyan-500/30">
                         <div className="h-48 bg-gradient-to-br from-[#0f172a] to-[#1e293b] flex items-center justify-center relative overflow-hidden group-hover:from-cyan-900/20 group-hover:to-blue-900/20 transition-all duration-500">
-                            {/* Abstract Pattern */}
-                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-                            <Code2 size={64} className="text-gray-700 group-hover:text-cyan-400/50 transition-all duration-300 transform group-hover:scale-110 group-hover:rotate-12" />
+                            {project.image ? (
+                                <img
+                                    src={project.image}
+                                    alt={`${project.title} screenshot`}
+                                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+                            ) : (
+                                <>
+                                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent opacity-40" />
+                                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                    <Code2 size={64} className="text-gray-700 group-hover:text-cyan-400/50 transition-all duration-300 transform group-hover:scale-110 group-hover:rotate-12" />
+                                </>
+                            )}
 
                             <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-0 bg-black/40 backdrop-blur-sm">
                                 <button className="p-3 rounded-full bg-white/10 hover:bg-cyan-500 text-white transition-all hover:scale-110" title="View Code">

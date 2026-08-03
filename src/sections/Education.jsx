@@ -8,7 +8,7 @@ const Education = () => {
             year: "2022 - 2026",
             degree: "B. Tech Information Technology",
             institution: "Rajalakshmi Engineering College",
-            details: "Pursuing undergraduate degree in Information Technology."
+            details: "Focus on Data Structures and Algorithms, Problem Solving, complexity analysis(Time & Space), OOPS, Optimization, Software Development, DBMS(Relational & NoSQL), Operating System, System Design, Error Handling"
         },
         {
             year: "2021 - 2022",

@@ -17,19 +17,19 @@ const Experience = () => {
                         <div className="flex-1">
                             <div className="flex justify-between items-start flex-wrap gap-2 mb-3">
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white font-display mb-1">Web Development Intern</h3>
+                                    <h3 className="text-2xl font-bold text-white font-display mb-1">Software Developer Intern</h3>
                                     <div className="flex items-center gap-2 text-gray-400 text-sm font-medium">
                                         <Building2 size={16} />
-                                        <span>Prodigy Infotech</span>
+                                        <span>LCS Control Pvt Ltd</span>
                                     </div>
                                 </div>
-                                <span className="text-xs font-bold bg-cyan-500/10 text-cyan-300 px-3 py-1.5 rounded-full border border-cyan-500/20 uppercase tracking-wide">1 Month</span>
+                                <span className="text-xs font-bold bg-cyan-500/10 text-cyan-300 px-3 py-1.5 rounded-full border border-cyan-500/20 uppercase tracking-wide">Currently Going</span>
                             </div>
 
-                            <p className="text-cyan-400 font-medium mb-4 text-sm tracking-wide bg-cyan-900/20 w-fit px-3 py-1 rounded">Online Internship</p>
+                            <p className="text-cyan-400 font-medium mb-4 text-sm tracking-wide bg-cyan-900/20 w-fit px-3 py-1 rounded">Onsite Internship</p>
 
                             <ul className="space-y-3">
-                                {["Completed a 1-month online Web Development internship.", "Awarded with a Certificate and Letter of Recommendation."].map((item, i) => (
+                                {["Developed scalable distributed cloud applications and RESTful APIs using ASP.NET Core, C#, ADO.NET, and MySQL Stored Procedures for a multi-tenant POS kiosk system, integrating React + TypeScript frontend modules for menu, inventory, device, and order management.","Integrated Amazon S3 for media storage and deployed the application on AWS using Elastic Beanstalk (backend), Amplify (frontend), RDS MySQL (database), and CloudFront, improving scalability, performance, and reliability."].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3 text-gray-300 leading-relaxed font-light">
                                         <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full mt-2.5 shrink-0 shadow-[0_0_8px_rgba(6,182,212,0.8)]" />
                                         {item}
@@ -50,19 +50,19 @@ const Experience = () => {
                         <div className="flex-1">
                             <div className="flex justify-between items-start flex-wrap gap-2 mb-3">
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white font-display mb-1">Software Developer Intern</h3>
+                                    <h3 className="text-2xl font-bold text-white font-display mb-1">Web Development Intern</h3>
                                     <div className="flex items-center gap-2 text-gray-400 text-sm font-medium">
                                         <Building2 size={16} />
-                                        <span>LCS Control Pvt Ltd</span>
+                                        <span>Prodigy Infotech</span>
                                     </div>
                                 </div>
-                                <span className="text-xs font-bold bg-cyan-500/10 text-cyan-300 px-3 py-1.5 rounded-full border border-cyan-500/20 uppercase tracking-wide">Currently Going</span>
+                                <span className="text-xs font-bold bg-cyan-500/10 text-cyan-300 px-3 py-1.5 rounded-full border border-cyan-500/20 uppercase tracking-wide">1 Month</span>
                             </div>
 
-                            <p className="text-cyan-400 font-medium mb-4 text-sm tracking-wide bg-cyan-900/20 w-fit px-3 py-1 rounded">Onsite Internship</p>
+                            <p className="text-cyan-400 font-medium mb-4 text-sm tracking-wide bg-cyan-900/20 w-fit px-3 py-1 rounded">Online Internship</p>
 
                             <ul className="space-y-3">
-                                {["Developed and maintained backend services using ASP.NET Core, C#, and MySQL, designing RESTful APIs, stored procedures, and database operations for enterprise kiosk management applications.","Integrated AWS S3 cloud storage and implemented modules for user, device, category, item, and order management, enhancing application scalability, performance, and data reliability."].map((item, i) => (
+                                {["Completed a 1-month online Web Development internship.", "Awarded with a Certificate and Letter of Recommendation."].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3 text-gray-300 leading-relaxed font-light">
                                         <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full mt-2.5 shrink-0 shadow-[0_0_8px_rgba(6,182,212,0.8)]" />
                                         {item}
