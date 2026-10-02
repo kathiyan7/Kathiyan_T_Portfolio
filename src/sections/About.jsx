@@ -25,7 +25,7 @@ const About = () => {
                         Innovating & <span className="text-cyan-400">Learning</span> Every Day
                     </h3>
                     <p className="text-lg text-gray-400 leading-relaxed font-light">
-                        Software Engineer with a strong foundation in Computer Science fundamentals, C++ Programming, Data Structures and Algorithms, Object-Oriented Programming, and problem solving. Experienced in building scalable backend systems and RESTful APIs using ASP.NET Core, TypeScript, React, MySQL, and AWS. Passionate about developing production - ready software solutions and solving complex engineering problems through efficient, scalable, and maintainable code.
+                        Software Engineer with a strong foundation in Computer Science fundamentals, Data Structures and Algorithms, Object-Oriented Programming, and problem solving. Experienced in building scalable backend systems and RESTful APIs using ASP .NET Core, C#, TypeScript, React, MySQL, and AWS. Passionate about developing production - ready software solutions and solving complex engineering problems through efficient, scalable, and maintainable code.
                     </p>
 
                     <div className="grid grid-cols-2 gap-6">

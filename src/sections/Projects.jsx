@@ -10,18 +10,21 @@ const Projects = () => {
         {
             image: AIProjectImg,
             title: "AI-based Educational Video Generation Platform",
+            link: "https://github.com/kathiyan7/Final_year_project_frontend",
             tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
             description: "An AI-powered educational video generation platform that transforms user-provided topics into complete learning videos by automating content research, script writing, image generation, narration, and video assembly. The system includes educator dashboards for managing requests, tracking generation progress, and downloading HD videos, significantly reducing content creation time from hours to minutes."
         },
         {
             image: QuizProjectImg,
             title: "Quiz Web Application",
+            link: "https://github.com/kathiyan7/Quiz",
             tech: ["HTML", "CSS", "JS", "Node.js", "MongoDB"],
             description: "A festive Christmas-themed quiz web application that allows users to register, attempt randomized quiz questions, and securely store responses, while incorporating server-side validation to prevent duplicate submissions and a credential-based authentication system. The application also features interactive holiday-themed animations and supports Excel-based data export for efficient result management."
         },
         {
             image: ViaBandImg,
             title: "Via Band",
+            link: "https://e35f8814.via-band.pages.dev/",
             tech: ["ESP32", "IoT", "Web/Mobile App"],
             description: "VIA Band is an IoT-based wearable health monitoring system built using ESP32 and multiple sensors to track vital health parameters and real-time location. The platform provides a web dashboard for visualizing health data, generating alerts, and analyzing trends, while integrating hospital locator and emergency notification features to enable rapid assistance during critical situations."
         },
@@ -66,7 +69,23 @@ const Projects = () => {
                         </div>
 
                         <div className="p-8 flex-1 flex flex-col">
-                            <h3 className="text-2xl font-bold mb-4 text-white font-display group-hover:text-cyan-400 transition-colors">{project.title}</h3>
+                            <h3 className="text-2xl font-bold mb-4 font-display">
+                                {project.link ? (
+                                    <a
+                                        href={project.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-white hover:text-cyan-400 group-hover:text-cyan-400 transition-colors inline-flex items-center gap-2"
+                                    >
+                                        <span>{project.title}</span>
+                                        <ExternalLink size={18} className="shrink-0 opacity-60 group-hover:opacity-100 transition-opacity" />
+                                    </a>
+                                ) : (
+                                    <span className="text-white group-hover:text-cyan-400 transition-colors">
+                                        {project.title}
+                                    </span>
+                                )}
+                            </h3>
                             <p className="text-gray-400 text-sm mb-6 flex-1 leading-relaxed font-light">
                                 {project.description}
                             </p>
